@@ -1,0 +1,569 @@
+ WorkspaceType:               esriLocalDatabaseWorkspace
+ Version:
+ Stats
+  Domains:                    5
+  Feature Datasets:           5
+  Feature Classes:            5
+  Representations:            0
+  Raster Datasets:            0
+  Raster Catalogs:            0
+  Raster Bands:               0
+  Network Datasets:           0
+  Geometric Networks:         0
+  Topologies:                 0
+  Cadastral Fabrics:          0
+  Terrains:                   0
+  Relationship Classes:       0
+  Tables:                     0
+
+ Domains [5]
+--------------------------------------------------------------------------------
+ Domain:                      Desc_Activity
+ Description:                 Activity Descriptions
+ FieldType:                   esriFieldTypeString
+ MergePolicy:                 esriMPTDefaultValue
+ Owner:
+ SplitPolicy:                 esriSPTDefaultValue
+ CodedValues  [9]:
+  1000 "Residential Activities"
+  2000 "Shopping, Business, or trade activities"
+  3000 "Industrial, manufacturing, and waste-related activites"
+  4000 "Social, institutional, or infrastructure-related activities"
+  5000 "Travel or Movement acitivities"
+  6000 "Mass assembly of people"
+  7000 "Leisure activities"
+  8000 "Natural resources-related activites"
+  9000 "No human activity or unclassifiable activity"
+
+ Domain:                      Desc_Function
+ Description:                 Function Descriptions
+ FieldType:                   esriFieldTypeString
+ MergePolicy:                 esriMPTDefaultValue
+ Owner:
+ SplitPolicy:                 esriSPTDefaultValue
+ CodedValues  [9]:
+  1000 "Residence or accomodation functions"
+  2000 "General sales or services"
+  3000 "Maunufacturing and wholesale trade"
+  4000 "Transportation, communication, information, and utilities"
+  5000 "Arts, entertainment, and recreation"
+  6000 "Education, public admin, health care, and other inst."
+  7000 "Construction-related businesses"
+  8000 "Mining and extraction establishments"
+  9000 "Agriculture, forestry, fishing and hunting"
+
+ Domain:                      Desc_Ownership
+ Description:                 Ownership Description
+ FieldType:                   esriFieldTypeString
+ MergePolicy:                 esriMPTDefaultValue
+ Owner:
+ SplitPolicy:                 esriSPTDefaultValue
+ CodedValues  [9]:
+  1000 "No constraints -- private ownership"
+  2000 "Some constraints -- easements or other use restrictions"
+  3000 "Limited Restriction - leased, other tenancy"
+  4000 "Public Restrictions - local, state, and federal ownership"
+  5000 "Other public use restrictions, regional, special districts"
+  6000 "Nonprofit ownership restrictions"
+  7000 "Joint ownership character - public entitites"
+  8000 "Joint ownership character - public, private, nonprofit"
+  9000 "Not applicable to this dimension"
+
+ Domain:                      Desc_Site
+ Description:                 Site Descriptions
+ FieldType:                   esriFieldTypeString
+ MergePolicy:                 esriMPTDefaultValue
+ Owner:
+ SplitPolicy:                 esriSPTDefaultValue
+ CodedValues  [9]:
+  1000 "Site in Natural state"
+  2000 "Developing Site"
+  3000 "Developed site -- crops, grazing, forestry, etc."
+  4000 "Developed site -- no buildings and no structures"
+  5000 "Developed site -- nonbuilding structures"
+  6000 "Developed site -- with buildings"
+  7000 "Developed site -- with parks"
+  8000 "Not applicable to this dimension"
+  9000 "Unclassifiable site development character"
+
+ Domain:                      Desc_Structure
+ Description:                 Structure Descriptions
+ FieldType:                   esriFieldTypeString
+ MergePolicy:                 esriMPTDefaultValue
+ Owner:
+ SplitPolicy:                 esriSPTDefaultValue
+ CodedValues  [9]:
+  1000 "Residential Buildings"
+  2000 "Commercial Buildings or other specialized structures"
+  3000 "Public assembly structures"
+  4000 "Institutional or community facilities"
+  5000 "Transportation-related facilities"
+  6000 "Utility and other nonbuilding structures"
+  7000 "Specialized military structures"
+  8000 "Sheds, farm buildings, or agricultural facilities"
+  9000 "No structure"
+
+ Datasets
+--------------------------------------------------------------------------------
+   DEFeatureDataset:          Scenario1
+   Name:                      Scenario1
+   DatasetType:               esriDTFeatureDataset
+   Versioned:                 false
+   CanVersion:                false
+   ConfigurationKeyword:
+
+    Extent:                   (-1843434.8496000003,-491180.28189999983),(-1843145.6316999998,-490950.43290000036)
+
+    SpatialReference:         ProjectedCoordinateSystem
+    WKID:                     102008
+     Origin:                  (-16688100,-9068200)
+    WKT:                      PROJCS["North_America_Albers_Equal_Area_Conic",GEOGCS["GCS_North_American_1983",DATUM["D_North_American_1983",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Albers"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-96.0],PARAMETER["Standard_Parallel_1",20.0],PARAMETER["Standard_Parallel_2",60.0],PARAMETER["Latitude_Of_Origin",40.0],UNIT["Meter",1.0],AUTHORITY["ESRI",102008]]
+    XYScale:                  10000
+    ZOrigin:                  -100000
+    ZScale:                   10000
+    MOrigin:                  -100000
+    MScale:                   10000
+    XYTolerance:              0.001
+    ZTolerance:               0.001
+    MTolerance:               0.001
+    HighPrecision:            true
+    LatestWKID:               102008
+
+     DEFeatureClass:          LandBasedClassificationStandards_1
+     Name:                    LandBasedClassificationStandards_1
+     DatasetType:             esriDTFeatureClass
+     Versioned:               false
+     CanVersion:              false
+     ConfigurationKeyword:
+     HasOID:                  true
+     OIDFieldName:            OBJECTID
+     CLSID:                   {52353152-891A-11D0-BEC6-00805F7C4268}
+     EXTCLSID:
+     RelationshipClassNames:
+     AliasName:               LandBasedClassificationStandards_1
+     ModelName:
+     HasGlobalID:             false
+     GlobalIDFieldName:
+     RasterFieldName:
+     ControllerMemberships:
+     EditorTrackingEnabled:   false
+     CreatorFieldName:
+     CreatedAtFieldName:
+     EditorFieldName:
+     EditedAtFieldName:
+     IsTimeInUTC:             true
+     FeatureType:             esriFTSimple
+     ShapeType:               esriGeometryPolygon
+     ShapeFieldName:          Shape
+     HasM:                    false
+     HasZ:                    false
+     HasSpatialIndex:         true
+     AreaFieldName:           Shape_Area
+     LengthFieldName:         Shape_Length
+
+      Extent:                 (-1843434.8496000003,-491180.28189999983),(-1843145.6316999998,-490950.43290000036)
+
+      SpatialReference:       ProjectedCoordinateSystem
+      WKID:                   102008
+       Origin:                (-16688100,-9068200)
+      WKT:                    PROJCS["North_America_Albers_Equal_Area_Conic",GEOGCS["GCS_North_American_1983",DATUM["D_North_American_1983",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Albers"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-96.0],PARAMETER["Standard_Parallel_1",20.0],PARAMETER["Standard_Parallel_2",60.0],PARAMETER["Latitude_Of_Origin",40.0],UNIT["Meter",1.0],AUTHORITY["ESRI",102008]]
+      XYScale:                10000
+      ZOrigin:                -100000
+      ZScale:                 10000
+      MOrigin:                -100000
+      MScale:                 10000
+      XYTolerance:            0.001
+      ZTolerance:             0.001
+      MTolerance:             0.001
+      HighPrecision:          true
+      LatestWKID:             102008
+
+      ExtensionProperties
+      PropertyArray:
+     LandBasedClassificationStandards_1  Fields
+      [OBJECTID]              (esriFieldTypeOID not null, required, readonly, alias: [OBJECTID], model: [OBJECTID])
+      [Shape]                 (esriFieldTypeGeometry (esriGeometryPolygon) null, required, alias: [Shape], model: [Shape], grid0=280)
+      [Desc_Function]         (esriFieldTypeString(50) null, alias: [Function Description], model: [Desc_Function], domain: [Desc_Function])
+      [Desc_Activity]         (esriFieldTypeString(50) null, alias: [Activity Description], model: [Desc_Activity], domain: [Desc_Activity])
+      [Desc_Site]             (esriFieldTypeString(50) null, alias: [Site Description], model: [Desc_Site], domain: [Desc_Site])
+      [Desc_Ownership]        (esriFieldTypeString(50) null, alias: [Ownership Description], model: [Desc_Ownership], domain: [Desc_Ownership])
+      [Desc_Structure]        (esriFieldTypeString(50) null, alias: [Structure Description], model: [Desc_Structure], domain: [Desc_Structure])
+      [Shape_Length]          (esriFieldTypeDouble null, required, readonly, alias: [Shape_Length], model: [Shape_Length])
+      [Shape_Area]            (esriFieldTypeDouble null, required, readonly, alias: [Shape_Area], model: [Shape_Area])
+
+     LandBasedClassificationStandards_1  Indexes
+      [FDO_OBJECTID]          ( unique, asc, [OBJECTID])
+      [FDO_Shape]             ( not unique, asc, [Shape])
+
+     ::::::END  DEFeatureClass   LandBasedClassificationStandards_1
+   ::::::END  DEFeatureDataset   Scenario1
+   DEFeatureDataset:          Scenario2
+   Name:                      Scenario2
+   DatasetType:               esriDTFeatureDataset
+   Versioned:                 false
+   CanVersion:                false
+   ConfigurationKeyword:
+
+    Extent:                   (-1843438.0924999993,-491182.10219999962),(-1843147.4687120095,-490954.65330000035)
+
+    SpatialReference:         ProjectedCoordinateSystem
+    WKID:                     102008
+     Origin:                  (-16688100,-9068200)
+    WKT:                      PROJCS["North_America_Albers_Equal_Area_Conic",GEOGCS["GCS_North_American_1983",DATUM["D_North_American_1983",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Albers"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-96.0],PARAMETER["Standard_Parallel_1",20.0],PARAMETER["Standard_Parallel_2",60.0],PARAMETER["Latitude_Of_Origin",40.0],UNIT["Meter",1.0],AUTHORITY["ESRI",102008]]
+    XYScale:                  10000
+    ZOrigin:                  -100000
+    ZScale:                   10000
+    MOrigin:                  -100000
+    MScale:                   10000
+    XYTolerance:              0.001
+    ZTolerance:               0.001
+    MTolerance:               0.001
+    HighPrecision:            true
+    LatestWKID:               102008
+
+     DEFeatureClass:          LandBasedClassificationStandards_2
+     Name:                    LandBasedClassificationStandards_2
+     DatasetType:             esriDTFeatureClass
+     Versioned:               false
+     CanVersion:              false
+     ConfigurationKeyword:
+     HasOID:                  true
+     OIDFieldName:            OBJECTID
+     CLSID:                   {52353152-891A-11D0-BEC6-00805F7C4268}
+     EXTCLSID:
+     RelationshipClassNames:
+     AliasName:               Land-Based Classification Standards
+     ModelName:
+     HasGlobalID:             false
+     GlobalIDFieldName:
+     RasterFieldName:
+     ControllerMemberships:
+     EditorTrackingEnabled:   false
+     CreatorFieldName:
+     CreatedAtFieldName:
+     EditorFieldName:
+     EditedAtFieldName:
+     IsTimeInUTC:             true
+     FeatureType:             esriFTSimple
+     ShapeType:               esriGeometryPolygon
+     ShapeFieldName:          SHAPE
+     HasM:                    false
+     HasZ:                    false
+     HasSpatialIndex:         true
+     AreaFieldName:           SHAPE_Area
+     LengthFieldName:         SHAPE_Length
+
+      Extent:                 (-1843438.0924999993,-491182.10219999962),(-1843147.4687120095,-490954.65330000035)
+
+      SpatialReference:       ProjectedCoordinateSystem
+      WKID:                   102008
+       Origin:                (-16688100,-9068200)
+      WKT:                    PROJCS["North_America_Albers_Equal_Area_Conic",GEOGCS["GCS_North_American_1983",DATUM["D_North_American_1983",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Albers"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-96.0],PARAMETER["Standard_Parallel_1",20.0],PARAMETER["Standard_Parallel_2",60.0],PARAMETER["Latitude_Of_Origin",40.0],UNIT["Meter",1.0],AUTHORITY["ESRI",102008]]
+      XYScale:                10000
+      ZOrigin:                -100000
+      ZScale:                 10000
+      MOrigin:                -100000
+      MScale:                 10000
+      XYTolerance:            0.001
+      ZTolerance:             0.001
+      MTolerance:             0.001
+      HighPrecision:          true
+      LatestWKID:             102008
+
+      ExtensionProperties
+      PropertyArray:
+     LandBasedClassificationStandards_2  Fields
+      [OBJECTID]              (esriFieldTypeOID not null, required, readonly, alias: [OBJECTID], model: [OBJECTID])
+      [SHAPE]                 (esriFieldTypeGeometry (esriGeometryPolygon) null, required, alias: [SHAPE], model: [SHAPE], grid0=300)
+      [Desc_Function]         (esriFieldTypeString(50) null, alias: [Function Description], model: [Desc_Function], domain: [Desc_Function])
+      [Desc_Activity]         (esriFieldTypeString(50) null, alias: [Activity Description], model: [Desc_Activity], domain: [Desc_Activity])
+      [Desc_Site]             (esriFieldTypeString(50) null, alias: [Site Description], model: [Desc_Site], domain: [Desc_Site])
+      [Desc_Ownership]        (esriFieldTypeString(50) null, alias: [Ownership Description], model: [Desc_Ownership], domain: [Desc_Ownership])
+      [Desc_Structure]        (esriFieldTypeString(50) null, alias: [Structure Description], model: [Desc_Structure], domain: [Desc_Structure])
+      [SHAPE_Length]          (esriFieldTypeDouble null, required, readonly, alias: [SHAPE_Length], model: [SHAPE_Length])
+      [SHAPE_Area]            (esriFieldTypeDouble null, required, readonly, alias: [SHAPE_Area], model: [SHAPE_Area])
+
+     LandBasedClassificationStandards_2  Indexes
+      [FDO_OBJECTID]          ( unique, asc, [OBJECTID])
+      [FDO_SHAPE]             ( not unique, asc, [SHAPE])
+
+     ::::::END  DEFeatureClass   LandBasedClassificationStandards_2
+   ::::::END  DEFeatureDataset   Scenario2
+   DEFeatureDataset:          Scenario3
+   Name:                      Scenario3
+   DatasetType:               esriDTFeatureDataset
+   Versioned:                 false
+   CanVersion:                false
+   ConfigurationKeyword:
+
+    Extent:                   (-1843438.0924999993,-491182.10219999962),(-1843147.4687120095,-490954.65330000035)
+
+    SpatialReference:         ProjectedCoordinateSystem
+    WKID:                     102008
+     Origin:                  (-16688100,-9068200)
+    WKT:                      PROJCS["North_America_Albers_Equal_Area_Conic",GEOGCS["GCS_North_American_1983",DATUM["D_North_American_1983",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Albers"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-96.0],PARAMETER["Standard_Parallel_1",20.0],PARAMETER["Standard_Parallel_2",60.0],PARAMETER["Latitude_Of_Origin",40.0],UNIT["Meter",1.0],AUTHORITY["ESRI",102008]]
+    XYScale:                  10000
+    ZOrigin:                  -100000
+    ZScale:                   10000
+    MOrigin:                  -100000
+    MScale:                   10000
+    XYTolerance:              0.001
+    ZTolerance:               0.001
+    MTolerance:               0.001
+    HighPrecision:            true
+    LatestWKID:               102008
+
+     DEFeatureClass:          LandBasedClassificationStandards_3
+     Name:                    LandBasedClassificationStandards_3
+     DatasetType:             esriDTFeatureClass
+     Versioned:               false
+     CanVersion:              false
+     ConfigurationKeyword:
+     HasOID:                  true
+     OIDFieldName:            OBJECTID
+     CLSID:                   {52353152-891A-11D0-BEC6-00805F7C4268}
+     EXTCLSID:
+     RelationshipClassNames:
+     AliasName:               Land-Based Classification Standards
+     ModelName:
+     HasGlobalID:             false
+     GlobalIDFieldName:
+     RasterFieldName:
+     ControllerMemberships:
+     EditorTrackingEnabled:   false
+     CreatorFieldName:
+     CreatedAtFieldName:
+     EditorFieldName:
+     EditedAtFieldName:
+     IsTimeInUTC:             true
+     FeatureType:             esriFTSimple
+     ShapeType:               esriGeometryPolygon
+     ShapeFieldName:          SHAPE
+     HasM:                    false
+     HasZ:                    false
+     HasSpatialIndex:         true
+     AreaFieldName:           SHAPE_Area
+     LengthFieldName:         SHAPE_Length
+
+      Extent:                 (-1843438.0924999993,-491182.10219999962),(-1843147.4687120095,-490954.65330000035)
+
+      SpatialReference:       ProjectedCoordinateSystem
+      WKID:                   102008
+       Origin:                (-16688100,-9068200)
+      WKT:                    PROJCS["North_America_Albers_Equal_Area_Conic",GEOGCS["GCS_North_American_1983",DATUM["D_North_American_1983",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Albers"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-96.0],PARAMETER["Standard_Parallel_1",20.0],PARAMETER["Standard_Parallel_2",60.0],PARAMETER["Latitude_Of_Origin",40.0],UNIT["Meter",1.0],AUTHORITY["ESRI",102008]]
+      XYScale:                10000
+      ZOrigin:                -100000
+      ZScale:                 10000
+      MOrigin:                -100000
+      MScale:                 10000
+      XYTolerance:            0.001
+      ZTolerance:             0.001
+      MTolerance:             0.001
+      HighPrecision:          true
+      LatestWKID:             102008
+
+      ExtensionProperties
+      PropertyArray:
+     LandBasedClassificationStandards_3  Fields
+      [OBJECTID]              (esriFieldTypeOID not null, required, readonly, alias: [OBJECTID], model: [OBJECTID])
+      [SHAPE]                 (esriFieldTypeGeometry (esriGeometryPolygon) null, required, alias: [SHAPE], model: [SHAPE], grid0=300)
+      [Desc_Function]         (esriFieldTypeString(50) null, alias: [Function Description], model: [Desc_Function], domain: [Desc_Function])
+      [Desc_Activity]         (esriFieldTypeString(50) null, alias: [Activity Description], model: [Desc_Activity], domain: [Desc_Activity])
+      [Desc_Site]             (esriFieldTypeString(50) null, alias: [Site Description], model: [Desc_Site], domain: [Desc_Site])
+      [Desc_Ownership]        (esriFieldTypeString(50) null, alias: [Ownership Description], model: [Desc_Ownership], domain: [Desc_Ownership])
+      [Desc_Structure]        (esriFieldTypeString(50) null, alias: [Structure Description], model: [Desc_Structure], domain: [Desc_Structure])
+      [SHAPE_Length]          (esriFieldTypeDouble null, required, readonly, alias: [SHAPE_Length], model: [SHAPE_Length])
+      [SHAPE_Area]            (esriFieldTypeDouble null, required, readonly, alias: [SHAPE_Area], model: [SHAPE_Area])
+
+     LandBasedClassificationStandards_3  Indexes
+      [FDO_OBJECTID]          ( unique, asc, [OBJECTID])
+      [FDO_SHAPE]             ( not unique, asc, [SHAPE])
+
+     ::::::END  DEFeatureClass   LandBasedClassificationStandards_3
+   ::::::END  DEFeatureDataset   Scenario3
+   DEFeatureDataset:          Scenario4
+   Name:                      Scenario4
+   DatasetType:               esriDTFeatureDataset
+   Versioned:                 false
+   CanVersion:                false
+   ConfigurationKeyword:
+
+    Extent:                   (-1843431.6486729365,-491173.45777426602),(-1843152.5852470475,-490951.09051027946)
+
+    SpatialReference:         ProjectedCoordinateSystem
+    WKID:                     102008
+     Origin:                  (-16688100,-9068200)
+    WKT:                      PROJCS["North_America_Albers_Equal_Area_Conic",GEOGCS["GCS_North_American_1983",DATUM["D_North_American_1983",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Albers"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-96.0],PARAMETER["Standard_Parallel_1",20.0],PARAMETER["Standard_Parallel_2",60.0],PARAMETER["Latitude_Of_Origin",40.0],UNIT["Meter",1.0],AUTHORITY["ESRI",102008]]
+    XYScale:                  10000
+    ZOrigin:                  -100000
+    ZScale:                   10000
+    MOrigin:                  -100000
+    MScale:                   10000
+    XYTolerance:              0.001
+    ZTolerance:               0.001
+    MTolerance:               0.001
+    HighPrecision:            true
+    LatestWKID:               102008
+
+     DEFeatureClass:          LandBasedClassificationStandards_4
+     Name:                    LandBasedClassificationStandards_4
+     DatasetType:             esriDTFeatureClass
+     Versioned:               false
+     CanVersion:              false
+     ConfigurationKeyword:
+     HasOID:                  true
+     OIDFieldName:            OBJECTID
+     CLSID:                   {52353152-891A-11D0-BEC6-00805F7C4268}
+     EXTCLSID:
+     RelationshipClassNames:
+     AliasName:               Land-Based Classification Standards
+     ModelName:
+     HasGlobalID:             false
+     GlobalIDFieldName:
+     RasterFieldName:
+     ControllerMemberships:
+     EditorTrackingEnabled:   false
+     CreatorFieldName:
+     CreatedAtFieldName:
+     EditorFieldName:
+     EditedAtFieldName:
+     IsTimeInUTC:             true
+     FeatureType:             esriFTSimple
+     ShapeType:               esriGeometryPolygon
+     ShapeFieldName:          SHAPE
+     HasM:                    false
+     HasZ:                    false
+     HasSpatialIndex:         true
+     AreaFieldName:           SHAPE_Area
+     LengthFieldName:         SHAPE_Length
+
+      Extent:                 (-1843431.6486729365,-491173.45777426602),(-1843152.5852470475,-490951.09051027946)
+
+      SpatialReference:       ProjectedCoordinateSystem
+      WKID:                   102008
+       Origin:                (-16688100,-9068200)
+      WKT:                    PROJCS["North_America_Albers_Equal_Area_Conic",GEOGCS["GCS_North_American_1983",DATUM["D_North_American_1983",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Albers"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-96.0],PARAMETER["Standard_Parallel_1",20.0],PARAMETER["Standard_Parallel_2",60.0],PARAMETER["Latitude_Of_Origin",40.0],UNIT["Meter",1.0],AUTHORITY["ESRI",102008]]
+      XYScale:                10000
+      ZOrigin:                -100000
+      ZScale:                 10000
+      MOrigin:                -100000
+      MScale:                 10000
+      XYTolerance:            0.001
+      ZTolerance:             0.001
+      MTolerance:             0.001
+      HighPrecision:          true
+      LatestWKID:             102008
+
+      ExtensionProperties
+      PropertyArray:
+     LandBasedClassificationStandards_4  Fields
+      [OBJECTID]              (esriFieldTypeOID not null, required, readonly, alias: [OBJECTID], model: [OBJECTID])
+      [SHAPE]                 (esriFieldTypeGeometry (esriGeometryPolygon) null, required, alias: [SHAPE], model: [SHAPE], grid0=300)
+      [Desc_Function]         (esriFieldTypeString(50) null, alias: [Function Description], model: [Desc_Function], domain: [Desc_Function])
+      [Desc_Activity]         (esriFieldTypeString(50) null, alias: [Activity Description], model: [Desc_Activity], domain: [Desc_Activity])
+      [Desc_Site]             (esriFieldTypeString(50) null, alias: [Site Description], model: [Desc_Site], domain: [Desc_Site])
+      [Desc_Ownership]        (esriFieldTypeString(50) null, alias: [Ownership Description], model: [Desc_Ownership], domain: [Desc_Ownership])
+      [Desc_Structure]        (esriFieldTypeString(50) null, alias: [Structure Description], model: [Desc_Structure], domain: [Desc_Structure])
+      [SHAPE_Length]          (esriFieldTypeDouble null, required, readonly, alias: [SHAPE_Length], model: [SHAPE_Length])
+      [SHAPE_Area]            (esriFieldTypeDouble null, required, readonly, alias: [SHAPE_Area], model: [SHAPE_Area])
+
+     LandBasedClassificationStandards_4  Indexes
+      [FDO_OBJECTID]          ( unique, asc, [OBJECTID])
+      [FDO_SHAPE]             ( not unique, asc, [SHAPE])
+
+     ::::::END  DEFeatureClass   LandBasedClassificationStandards_4
+   ::::::END  DEFeatureDataset   Scenario4
+   DEFeatureDataset:          Scenario5
+   Name:                      Scenario5
+   DatasetType:               esriDTFeatureDataset
+   Versioned:                 false
+   CanVersion:                false
+   ConfigurationKeyword:
+
+    Extent:                   (-1843437.4590589297,-491179.3659703054),(-1843151.3392381258,-490961.50518085225)
+
+    SpatialReference:         ProjectedCoordinateSystem
+    WKID:                     102008
+     Origin:                  (-16688100,-9068200)
+    WKT:                      PROJCS["North_America_Albers_Equal_Area_Conic",GEOGCS["GCS_North_American_1983",DATUM["D_North_American_1983",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Albers"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-96.0],PARAMETER["Standard_Parallel_1",20.0],PARAMETER["Standard_Parallel_2",60.0],PARAMETER["Latitude_Of_Origin",40.0],UNIT["Meter",1.0],AUTHORITY["ESRI",102008]]
+    XYScale:                  10000
+    ZOrigin:                  -100000
+    ZScale:                   10000
+    MOrigin:                  -100000
+    MScale:                   10000
+    XYTolerance:              0.001
+    ZTolerance:               0.001
+    MTolerance:               0.001
+    HighPrecision:            true
+    LatestWKID:               102008
+
+     DEFeatureClass:          LandBasedClassificationStandards_5
+     Name:                    LandBasedClassificationStandards_5
+     DatasetType:             esriDTFeatureClass
+     Versioned:               false
+     CanVersion:              false
+     ConfigurationKeyword:
+     HasOID:                  true
+     OIDFieldName:            OBJECTID
+     CLSID:                   {52353152-891A-11D0-BEC6-00805F7C4268}
+     EXTCLSID:
+     RelationshipClassNames:
+     AliasName:               Land-Based Classification Standards
+     ModelName:
+     HasGlobalID:             false
+     GlobalIDFieldName:
+     RasterFieldName:
+     ControllerMemberships:
+     EditorTrackingEnabled:   false
+     CreatorFieldName:
+     CreatedAtFieldName:
+     EditorFieldName:
+     EditedAtFieldName:
+     IsTimeInUTC:             true
+     FeatureType:             esriFTSimple
+     ShapeType:               esriGeometryPolygon
+     ShapeFieldName:          SHAPE
+     HasM:                    false
+     HasZ:                    false
+     HasSpatialIndex:         true
+     AreaFieldName:           SHAPE_Area
+     LengthFieldName:         SHAPE_Length
+
+      Extent:                 (-1843437.4590589297,-491179.3659703054),(-1843151.3392381258,-490961.50518085225)
+
+      SpatialReference:       ProjectedCoordinateSystem
+      WKID:                   102008
+       Origin:                (-16688100,-9068200)
+      WKT:                    PROJCS["North_America_Albers_Equal_Area_Conic",GEOGCS["GCS_North_American_1983",DATUM["D_North_American_1983",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Albers"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-96.0],PARAMETER["Standard_Parallel_1",20.0],PARAMETER["Standard_Parallel_2",60.0],PARAMETER["Latitude_Of_Origin",40.0],UNIT["Meter",1.0],AUTHORITY["ESRI",102008]]
+      XYScale:                10000
+      ZOrigin:                -100000
+      ZScale:                 10000
+      MOrigin:                -100000
+      MScale:                 10000
+      XYTolerance:            0.001
+      ZTolerance:             0.001
+      MTolerance:             0.001
+      HighPrecision:          true
+      LatestWKID:             102008
+
+      ExtensionProperties
+      PropertyArray:
+     LandBasedClassificationStandards_5  Fields
+      [OBJECTID]              (esriFieldTypeOID not null, required, readonly, alias: [OBJECTID], model: [OBJECTID])
+      [SHAPE]                 (esriFieldTypeGeometry (esriGeometryPolygon) null, required, alias: [SHAPE], model: [SHAPE], grid0=300)
+      [Desc_Function]         (esriFieldTypeString(50) null, alias: [Function Description], model: [Desc_Function], domain: [Desc_Function])
+      [Desc_Activity]         (esriFieldTypeString(50) null, alias: [Activity Description], model: [Desc_Activity], domain: [Desc_Activity])
+      [Desc_Site]             (esriFieldTypeString(50) null, alias: [Site Description], model: [Desc_Site], domain: [Desc_Site])
+      [Desc_Ownership]        (esriFieldTypeString(50) null, alias: [Ownership Description], model: [Desc_Ownership], domain: [Desc_Ownership])
+      [Desc_Structure]        (esriFieldTypeString(50) null, alias: [Structure Description], model: [Desc_Structure], domain: [Desc_Structure])
+      [SHAPE_Length]          (esriFieldTypeDouble null, required, readonly, alias: [SHAPE_Length], model: [SHAPE_Length])
+      [SHAPE_Area]            (esriFieldTypeDouble null, required, readonly, alias: [SHAPE_Area], model: [SHAPE_Area])
+
+     LandBasedClassificationStandards_5  Indexes
+      [FDO_OBJECTID]          ( unique, asc, [OBJECTID])
+      [FDO_SHAPE]             ( not unique, asc, [SHAPE])
+
+     ::::::END  DEFeatureClass   LandBasedClassificationStandards_5
+   ::::::END  DEFeatureDataset   Scenario5
+--------------------------------------------------------------------------------
+                NOTHING  FOLLOWS
